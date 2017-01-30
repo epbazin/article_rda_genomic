@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: article_genome_scan.aux
+The style file: natbib.bst
+Database file #1: Article_ca_gs.bib
+You've used 17 entries,
+            2378 wiz_defined-function locations,
+            653 strings with 7768 characters,
+and the built_in function-call counts, 8977 in all, are:
+= -- 866
+> -- 526
+< -- 7
++ -- 154
+- -- 154
+* -- 870
+:= -- 1545
+add.period$ -- 79
+call.type$ -- 17
+change.case$ -- 105
+chr.to.int$ -- 17
+cite$ -- 17
+duplicate$ -- 337
+empty$ -- 567
+format.name$ -- 179
+if$ -- 1764
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 18
+newline$ -- 88
+num.names$ -- 68
+pop$ -- 102
+preamble$ -- 1
+purify$ -- 106
+quote$ -- 0
+skip$ -- 228
+stack$ -- 0
+substring$ -- 636
+swap$ -- 71
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 150
+warning$ -- 0
+while$ -- 81
+width$ -- 0
+write$ -- 222
