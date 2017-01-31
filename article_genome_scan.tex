@@ -46,7 +46,7 @@ $^{2}$TIMC, Universit\'{e} de Grenoble}
 
 \editor{}
 
-\abstract{
+\abstract{Ordination is a common tool in Ecology that aims at representing complex biological information on a reduced space. For instance, it is frequently used to study geographic distribution pattern of species diversity and to study the link between ecological variable such as temperature, drought, etc, on the species turnover. Recently, these methodologies are becoming quite popular in Landscape Genomic where one wants to study the link between environmental variable and the distribution pattern of genome wide diversity. However, it remains unclear what are the expected outcome of such approaches since genetic diversity has presumably a very different dynamic from species diversity. Simulations studies could help to shed light on this problem but they are still lacking whereas it tends to be broadly accepted as a pertinent approach. Furthermore, recent development have proposed to use ordination methods such as PCA to detect genes under selection. Simulations tend to support this idea has it seems to be quite robust to the underlying population structure and dynamic. Some authors have proposed to use other ordination approaches  such as RDA, taking advantage of using environmental data. However no clear statistical framework have been developed to efficiently implement this idea in a robust and efficient test and once again, we don't know what is expected from the outcome of such approaches: which genes will be detected under which selective pressures? This paper aims at proposing a new test based on RDA approaches to search for genes under selection and to compare it to a classical PCA method. Thanks to individual based simulation, we compare both performance and robustness. Additionally, we test the efficiency of constrained ordination method such as RDA to detect relevant selective gradient since this was lacking in the Landscape Genomic literature. Finally, to illustrate the pertinence of such method in concrete example, we apply it to a real dataset.
 }
 
 \keyword{}
@@ -95,7 +95,7 @@ To test for the efficiency of RDA in population genomic, we performed simulation
 \subsection{Real dataset}
 The Loblolly pine dataset is a sample of 682 individuals genotyped on 1,730 SNPs selected in ESTs \citep{Eckert2010}. 60 climatic variables were available and summarized by the authors in the five first axis of a PCA. The first axis, PC1 is mainly linked to latitude, longitude, temperature, and winter aridity. PC2 is linked to longitude, spring-fall aridity, and precipitation. We inputed the missing data using a very simple algorithm implement in function sing.im of the R package linkim \citep{Lachenbruch2011}. It imputes the missing value based on the observed data proportions.  We used $K=4$ axis to compute Malahanobis distances.
 
-The Chinook salmon consists of 19 703 SNP loci genotyped on 1956 total individuals pooled in 46 collections. Five variables (MigDistKM, StreamOrder, bio03, bio17 and bio18) have been used among  24 different climate and environmental variables because they have been tested as significantly associated with the SNP variation rangewide citep{Hecht2015}. MigDistKM stands for Migration distance from collection site to ocean (km),
+The Chinook salmon consists of 19 703 SNP loci genotyped on 1956 total individuals pooled in 46 collections. \citet{Hecht2015} have estimated that between 5.8 and 21.8\% of genomic variation can be accounted for by environmental features, and 566 putatively adaptive loci were identified as targets of environmental adaptation. Therefore this dataset is a good candidate to test ACP and RDA approaches to detect outliers and selective gradients. Five variables (MigDistKM, StreamOrder, bio03, bio17 and bio18) have been used among  24 different climate and environmental variables because they have been tested as significantly associated with the SNP variation rangewide \citep{Hecht2015}. MigDistKM stands for Migration distance from collection site to ocean (km),
 StreamOrder for Stream Order of collection site using Strahler method, bio03 for Isothermality, bio17 for Precipitation of Driest Quarter (mm) and bio18 for Precipitation of Warmest Quarter (mm). We could have tested more variable but this is just an illustration and is by no mean an extensive study of this species. Since data are pooled, we have randomly created a sample of 100 individuals for each collection based on the allele frequencies to be able to analyze the data following our individual based pipeline. We used $K=4$ axis to compute Malahanobis distances.
 
 
@@ -164,6 +164,11 @@ We then performed a second RDA on the "adaptively enriched genetic space" as per
 \subsection{Loblolly Pine}
 
 
+\subsection{Chinook Salmon}
+
+Our analysis of Chinook Salmon gave a list of 27 SNPs (Tab. \ref{tab:salmon}). From the material of \citet{Hecht2015}, we extracted their matching with coding sequences and the associated annotation. 
+
+
 \section{Discussion}
 
 Fig \ref{fig:pcadapt} shows that pcadapt approach works well when the environmental gradient and the selective pressures are acting in the same direction than the geographical pattern of isolation by distance. Whereas when the environmental gradient is quadratic on the geographical range (QTL1) or when it is a coarse environment (QTL3). Indeed, we can hypothesize that the PCA ordination fails at orienting the genetic space differentiation into the direction of environment 1 and environment 3 therefore leaving no chance to detect any outliers on the QTL influenced by these environmental variables. Fig \ref{fig:rda} shows that RDA has a much better behavior than pcadapt by taking advantage of using informations of environmental local conditions.
@@ -171,6 +176,50 @@ Fig \ref{fig:pcadapt} shows that pcadapt approach works well when the environmen
 Both methods have a good control of false discovery rate ($8.36 \times 10^{-2}$ for pcadapt and $8.51 \times 10^{-2}$ for RDA). Results summarized on Fig \ref{fig:performance} is confirming that overall RDA shows better performance at detecting true outliers since it succeeds to detect quite often QTL1 and QTL3 SNPs. It seems however less efficient at detecting QTL3 outliers but this might be due to the fact that local adaptation on a coarse environment is more difficult  that adaptation on a smooth environmental gradient as environment 1 and 2. These simulations plead in favor of using constrained ordination method instead of PCA when non genetic data such as environmental variable are available in order to orientate the axis in the direction of informative gradients.
 
 When performing an RDA on the "adaptively enriched genetic space", Fig. \ref{rdaA} and \ref{R2} show that the method succeed at detecting the relevant selective gradient and separating them on different axis at least on our simulations. This therefore serves as a proof of concept of \citet{Steane2014a}'s approach to represent multilocus selective gradient and the possibility to use the ordination axis it to devise a metric that provides a holistic measure of genomic adaptation. Indeed, in RDA1 is strongly associated with envir2, RDA2 with envir1 and RDA3 with envir3 whereas poorly associated with the other axis. As expected, the correlated environment are also strongly associated with this respective axis. This is reflecting the fact that in reality it is difficult on an environmental gradient to distinguish  among the covariable which one has a causal effect on the individual fitness. However, it is often sufficient for biologists when performing an exploratory analysis to identify combination of environment variable having a strong association with adaptive variation without knowing precisely the underlying mechanical process.
+
+From the analysis of Chinook Salmon, we picked up some genes that can be interpreted regarding to the environmental variable. For instance, a heat shock protein which are known to be involved in adaptation to temperature or lipolysis-stimulated lipoprotein receptor which are involved in regulation of lipid metabolic process. This latter process can reasonably thought to be involved in adaptation to food abundance and the need for salmon to migrate on a short or long distance.
+
+
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Mon Jan 30 16:49:00 2017
+\begin{table}[ht]
+\centering
+\caption{List of SNPs with $qvalue < 0.1$ and their matching with coding sequence when available.}%
+\label{tab:salmon}%
+\begin{tabular}{rll}
+  \hline
+ & Locus & Sequence Description \\ 
+  \hline
+1 & 8760\_60 & cell migration-inducing and hyaluronan-binding partial \\ 
+  2 & 11727\_44 & protein argonaute-1 \\ 
+  3 & 15784\_70 & dna polymerase epsilon subunit 4 \\ 
+  4 & 19372\_14 & protein fam122a-like isoform x1 \\ 
+  5 & 19510\_54 & pantothenate kinase mitochondrial-like \\ 
+  6 & 19809\_36 & eukaryotic translation initiation factor 3 subunit j \\ 
+  7 & 22558\_48 & zinc finger protein gfi-1b-like \\ 
+  8 & 29912\_62 & g protein-activated inward rectifier potassium channel 1-like isoform x1 \\ 
+  9 & 30253\_61 & solute carrier family 1 (glial high affinity glutamate transporter) member 3b isoform x1 \\ 
+  10 & 30495\_21 & c-jun-amino-terminal kinase-interacting protein 4 \\ 
+  11 & 33486\_16 & heat shock 70 kda protein 12a isoform x3 \\ 
+  12 & 39480\_19 & ras association domain-containing protein 4 \\ 
+  13 & 40284\_30 & rna-binding single-stranded-interacting protein 2-like isoform x3 \\ 
+  14 & 41648\_34 & afadin- and alpha-actinin-binding protein \\ 
+  15 & 46982\_22 & unnamed protein product \\ 
+  16 & 50054\_21 & protein fam92a1-like isoform x1 \\ 
+  17 & 54261\_58 & leukotriene b4 receptor 1-like \\ 
+  18 & 54497\_54 & ankyrin repeat domain-containing protein 50-like \\ 
+  19 & 56375\_14 & mms19 nucleotide excision repair protein homolog \\ 
+  20 & 60067\_64 & e3 ubiquitin-protein ligase trim37-like \\ 
+  21 & 66930\_15 & tubulin polyglutamylase ttll4-like isoform x2 \\ 
+  22 & 69650\_61 & monocyte to macrophage differentiation factor 2 \\ 
+  23 & 71287\_48 & lipolysis-stimulated lipoprotein receptor \\ 
+  24 & 74776\_68 & baculoviral iap repeat-containing protein 6 isoform x10 \\ 
+  25 & 79151\_39 & guanine nucleotide-binding protein g g g subunit beta-1-like isoform x1 \\ 
+  26 & 81519\_68 & nuclear receptor corepressor 1 isoform x3 \\ 
+  27 & 89719\_68 & unnamed protein product, partial \\ 
+   \hline
+\end{tabular}
+\end{table}
 
 
 \section{Supplementary Material}
