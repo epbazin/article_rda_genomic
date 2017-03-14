@@ -36,14 +36,6 @@ Duforet-Frebourg, N., Bazin, E., and Blum, M. G.~B. 2014.
   Bayesian factor model.}
 \newblock {\em Molecular biology and evolution\/}, {31}(9): 1--13.
 
-\bibitem[Eckert {\em et~al.}(2010)Eckert, Bower, Gonz{\'{A}}lez-Mart{\'{I}}nez,
-  Wegrzyn, Coop, and Neale]{Eckert2010}
-Eckert, A.~J., Bower, A.~D., Gonz{\'{A}}lez-Mart{\'{I}}nez, S.~C., Wegrzyn,
-  J.~L., Coop, G., and Neale, D.~B. 2010.
-\newblock {Back to nature: Ecological genomics of loblolly pine (Pinus taeda,
-  Pinaceae)}.
-\newblock {\em Molecular Ecology\/}, {19}(17): 3789--3805.
-
 \bibitem[Foll and Gaggiotti(2008)Foll and Gaggiotti]{Foll2008}
 Foll, M. and Gaggiotti, O. 2008.
 \newblock {A genome-scan method to identify selected loci appropriate for both
@@ -57,16 +49,37 @@ Frichot, E., Schoville, S.~D., Bouchard, G., and Fran{\c{c}}ois, O. 2013.
   Using Latent Factor Mixed Models.}
 \newblock {\em Molecular biology and evolution\/}, {30}(7): 1687--99.
 
+\bibitem[Geraldes {\em et~al.}(2013)Geraldes, Difazio, Slavov, Ranjan, Muchero,
+  Hannemann, Gunter, Wymore, Grassa, Farzaneh, Porth, Mckown, Skyba, Li,
+  Fujita, Kl{\'{a}}p{\v{s}}t{\v{e}}, Martin, Schackwitz, Pennacchio, Rokhsar,
+  Friedmann, Wasteneys, Guy, El-Kassaby, Mansfield, Cronk, Ehlting, Douglas,
+  and Tuskan]{Geraldes2013}
+Geraldes, A., Difazio, S.~P., Slavov, G.~T., Ranjan, P., Muchero, W.,
+  Hannemann, J., Gunter, L.~E., Wymore, A.~M., Grassa, C.~J., Farzaneh, N.,
+  Porth, I., Mckown, A.~D., Skyba, O., Li, E., Fujita, M.,
+  Kl{\'{a}}p{\v{s}}t{\v{e}}, J., Martin, J., Schackwitz, W., Pennacchio, C.,
+  Rokhsar, D., Friedmann, M.~C., Wasteneys, G.~O., Guy, R.~D., El-Kassaby,
+  Y.~A., Mansfield, S.~D., Cronk, Q. C.~B., Ehlting, J., Douglas, C.~J., and
+  Tuskan, G.~A. 2013.
+\newblock {A 34K SNP genotyping array for Populus trichocarpa: Design,
+  application to the study of natural populations and transferability to other
+  Populus species}.
+\newblock {\em Molecular Ecology Resources\/}, {13}(2): 306--323.
+
+\bibitem[Geraldes {\em et~al.}(2014)Geraldes, Farzaneh, Grassa, Mckown, Guy,
+  Mansfield, Douglas, and Cronk]{Geraldes2014}
+Geraldes, A., Farzaneh, N., Grassa, C.~J., Mckown, A.~D., Guy, R.~D.,
+  Mansfield, S.~D., Douglas, C.~J., and Cronk, Q. C.~B. 2014.
+\newblock {LANDSCAPE GENOMICS OF POPULUS TRICHOCARPA : THE ROLE OF
+  HYBRIDIZATION , LIMITED GENE FLOW , AND NATURAL SELECTION IN SHAPING PATTERNS
+  OF POPULATION STRUCTURE}.
+\newblock pages 3260--3280.
+
 \bibitem[Hecht {\em et~al.}(2015)Hecht, Matala, Hess, and Narum]{Hecht2015}
 Hecht, B.~C., Matala, A.~P., Hess, J.~E., and Narum, S.~R. 2015.
 \newblock {Environmental adaptation in Chinook salmon (Oncorhynchus
   tshawytscha) throughout their North American range}.
 \newblock {\em Molecular Ecology\/}, {24}(22): 5573--5595.
-
-\bibitem[Lachenbruch(2011)Lachenbruch]{Lachenbruch2011}
-Lachenbruch, P.~A. 2011.
-\newblock {Variable selection when missing values are present: a case study}.
-\newblock {\em Statistical Methods in Medical Research\/}, {20}(4): 429--444.
 
 \bibitem[Lasky {\em et~al.}(2012)Lasky, {Des Marais}, McKay, Richards, Juenger,
   and Keitt]{Lasky2012}
