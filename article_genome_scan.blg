@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: article_genome_scan.aux
+The style file: natbib.bst
+Database file #1: Article_ca_gs.bib
+Warning--empty journal in Geraldes2014
+You've used 17 entries,
+            2378 wiz_defined-function locations,
+            649 strings with 8393 characters,
+and the built_in function-call counts, 9903 in all, are:
+= -- 885
+> -- 711
+< -- 7
++ -- 215
+- -- 215
+* -- 993
+:= -- 1735
+add.period$ -- 79
+call.type$ -- 17
+change.case$ -- 105
+chr.to.int$ -- 17
+cite$ -- 18
+duplicate$ -- 349
+empty$ -- 574
+format.name$ -- 240
+if$ -- 1927
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 18
+newline$ -- 88
+num.names$ -- 68
+pop$ -- 109
+preamble$ -- 1
+purify$ -- 106
+quote$ -- 0
+skip$ -- 243
+stack$ -- 0
+substring$ -- 645
+swap$ -- 81
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 150
+warning$ -- 1
+while$ -- 82
+width$ -- 0
+write$ -- 221
+(There was 1 warning)
