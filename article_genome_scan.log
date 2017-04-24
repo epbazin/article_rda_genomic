@@ -1,0 +1,741 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 APR 2017 14:00
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**article_genome_scan.tex
+(./article_genome_scan.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count90
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count92
+\output=\toks16
+\linenoprevgraf=\count93
+\linenumbersep=\dimen113
+\linenumberwidth=\dimen114
+\c@linenumber=\count94
+\c@pagewiselinenumber=\count95
+\c@LN@truepage=\count96
+\c@internallinenumber=\count97
+\c@internallinenumbers=\count98
+\quotelinenumbersep=\dimen115
+\bframerule=\dimen116
+\bframesep=\dimen117
+\bframebox=\box26
+LaTeX Info: Redefining \\ on input line 3056.
+)
+
+LaTeX Warning: Unused global option(s):
+    [times].
+
+No file article_genome_scan.aux.
+\openout1 = `article_genome_scan.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 435.6108pt, 89.62709pt)
+* v-part:(T,H,B)=(72.26999pt, 671.37021pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=435.6108pt
+* \textheight=671.37021pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen118
+\scratchbox=\box27
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen119
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 19.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Foll2008' on page 2 undefined on input line 4
+7.
+
+
+Package natbib Warning: Citation `Frichot2013' on page 2 undefined on input lin
+e 47.
+
+
+Package natbib Warning: Citation `Luu2016' on page 2 undefined on input line 47
+.
+
+
+Package natbib Warning: Citation `Vatsiou2015' on page 2 undefined on input lin
+e 47.
+
+
+Package natbib Warning: Citation `Coop2010' on page 2 undefined on input line 4
+7.
+
+
+Package natbib Warning: Citation `Frichot2013' on page 2 undefined on input lin
+e 47.
+
+
+Package natbib Warning: Citation `Bazin2010' on page 2 undefined on input line 
+47.
+
+
+Package natbib Warning: Citation `DeVillemereuil2015' on page 2 undefined on in
+put line 47.
+
+
+Package natbib Warning: Citation `Foll2008' on page 2 undefined on input line 4
+7.
+
+[2]
+
+Package natbib Warning: Citation `Duforet-Frebourg2014a' on page 3 undefined on
+ input line 51.
+
+
+Package natbib Warning: Citation `Luu2016' on page 3 undefined on input line 51
+.
+
+
+Package natbib Warning: Citation `Luu2016' on page 3 undefined on input line 51
+.
+
+
+Package natbib Warning: Citation `DeKort2014' on page 3 undefined on input line
+ 53.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 3 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 3 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Lasky2012' on page 3 undefined on input line 
+57.
+
+
+Package natbib Warning: Citation `DeKort2014' on page 3 undefined on input line
+ 57.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 3 undefined on input lin
+e 57.
+
+
+Package natbib Warning: Citation `Hecht2015' on page 3 undefined on input line 
+57.
+
+[3]
+
+Package natbib Warning: Citation `Lasky2012' on page 4 undefined on input line 
+64.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 4 undefined on input lin
+e 66.
+
+[4]
+
+Package natbib Warning: Citation `DeKort2014' on page 5 undefined on input line
+ 73.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 5 undefined on input lin
+e 73.
+
+
+Package natbib Warning: Citation `Rao1964' on page 5 undefined on input line 82
+.
+
+
+Package natbib Warning: Citation `Legendre2012' on page 5 undefined on input li
+ne 82.
+
+
+Package natbib Warning: Citation `Luu2016' on page 5 undefined on input line 84
+.
+
+
+Package natbib Warning: Citation `Frichot2013' on page 5 undefined on input lin
+e 90.
+
+[5]
+
+Package natbib Warning: Citation `Steane2014a' on page 6 undefined on input lin
+e 97.
+
+
+Package natbib Warning: Citation `Peng2005' on page 6 undefined on input line 1
+02.
+
+
+LaTeX Warning: Reference `fig:simulatedenvir' on page 6 undefined on input line
+ 103.
+
+
+LaTeX Warning: Reference `fig:environmentaldata' on page 6 undefined on input l
+ine 103.
+
+[6]
+
+Package natbib Warning: Citation `Geraldes2014' on page 7 undefined on input li
+ne 107.
+
+
+Package natbib Warning: Citation `Geraldes2013' on page 7 undefined on input li
+ne 107.
+
+
+Package natbib Warning: Citation `Geraldes2013' on page 7 undefined on input li
+ne 107.
+
+
+LaTeX Warning: Reference `fig:screeplotrda' on page 7 undefined on input line 1
+07.
+
+
+LaTeX Warning: Reference `fig:screeplotpca' on page 7 undefined on input line 1
+07.
+
+[7]
+
+LaTeX Warning: Reference `fig:pcadapt' on page 8 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:rda' on page 8 undefined on input line 114.
+
+
+LaTeX Warning: Reference `fig:performance' on page 8 undefined on input line 11
+4.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 8 undefined on input lin
+e 119.
+
+
+LaTeX Warning: Reference `fig:pcadapt' on page 8 undefined on input line 119.
+
+
+LaTeX Warning: Reference `fig:rda' on page 8 undefined on input line 119.
+
+
+LaTeX Warning: Reference `fig:rdaA' on page 8 undefined on input line 119.
+
+
+LaTeX Warning: Reference `fig:R2' on page 8 undefined on input line 119.
+
+
+LaTeX Warning: Reference `fig:varexplainedPopulus' on page 8 undefined on input
+ line 126.
+
+
+LaTeX Warning: Reference `fig:poplar_rda' on page 8 undefined on input line 126
+.
+
+
+Package natbib Warning: Citation `Geraldes2014' on page 8 undefined on input li
+ne 128.
+
+[8]
+
+LaTeX Warning: Reference `fig:pcadapt' on page 9 undefined on input line 133.
+
+
+LaTeX Warning: Reference `fig:rda' on page 9 undefined on input line 133.
+
+
+LaTeX Warning: Reference `fig:performance' on page 9 undefined on input line 13
+5.
+
+
+LaTeX Warning: Reference `fig:rdaA' on page 9 undefined on input line 137.
+
+
+LaTeX Warning: Reference `fig:R2' on page 9 undefined on input line 137.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 9 undefined on input lin
+e 137.
+
+[9]
+
+LaTeX Warning: Reference `fig:poplar_rda' on page 10 undefined on input line 14
+1.
+
+
+LaTeX Warning: Reference `fig:varexplainedPopulus' on page 10 undefined on inpu
+t line 141.
+
+
+Package natbib Warning: Citation `Steane2014a' on page 10 undefined on input li
+ne 141.
+
+[10] (./article_genome_scan.bbl [11]
+Missing character: There is no ƒ in font cmti10!
+Missing character: There is no Å in font cmti10!
+ [12])
+Package epstopdf Info: Source file: <figures/screeplot-rda.eps>
+(epstopdf)                    date: 2017-03-22 15:51:55
+(epstopdf)                    size: 5574 bytes
+(epstopdf)             Output file: <figures/screeplot-rda-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-03-22 15:58:05
+(epstopdf)                    size: 11210 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/screeplot-rda-eps-
+converted-to.pdf figures/screeplot-rda.eps>
+(epstopdf)             \includegraphics on input line 164.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/screeplot-rda-eps-converted-to.pdf, id=57, 602.25pt x 394.47375pt>
+File: figures/screeplot-rda-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/screeplot-rda-eps-converted-to.pdf>
+Package pdftex.def Info: figures/screeplot-rda-eps-converted-to.pdf used on inp
+ut line 164.
+(pdftex.def)             Requested size: 256.24232pt x 167.84254pt.
+Package epstopdf Info: Source file: <figures/screeplot-pca.eps>
+(epstopdf)                    date: 2017-03-22 15:28:26
+(epstopdf)                    size: 7400 bytes
+(epstopdf)             Output file: <figures/screeplot-pca-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-03-22 15:57:01
+(epstopdf)                    size: 11268 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/screeplot-pca-eps-
+converted-to.pdf figures/screeplot-pca.eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/screeplot-pca-eps-converted-to.pdf, id=58, 419.5675pt x 394.47375pt>
+File: figures/screeplot-pca-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/screeplot-pca-eps-converted-to.pdf>
+Package pdftex.def Info: figures/screeplot-pca-eps-converted-to.pdf used on inp
+ut line 173.
+(pdftex.def)             Requested size: 178.51549pt x 167.84254pt.
+Package epstopdf Info: Source file: <figures/simulatedenvironment.eps>
+(epstopdf)                    date: 2017-01-30 11:02:43
+(epstopdf)                    size: 1474586 bytes
+(epstopdf)             Output file: <figures/simulatedenvironment-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-03-08 11:31:09
+(epstopdf)                    size: 17861 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/simulatedenvironme
+nt-eps-converted-to.pdf figures/simulatedenvironment.eps>
+(epstopdf)             \includegraphics on input line 181.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/simulatedenvironment-eps-converted-to.pdf, id=59, 1297.84875pt x 447.6
+725pt>
+File: figures/simulatedenvironment-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use figures/simulatedenvironment-eps-converted-to.pdf>
+Package pdftex.def Info: figures/simulatedenvironment-eps-converted-to.pdf used
+ on input line 181.
+(pdftex.def)             Requested size: 486.59308pt x 167.84254pt.
+
+Overfull \hbox (50.98228pt too wide) in paragraph at lines 181--182
+ [] 
+ []
+
+Package epstopdf Info: Source file: <figures/environmentaldata.eps>
+(epstopdf)                    date: 2017-01-31 15:10:04
+(epstopdf)                    size: 3856898 bytes
+(epstopdf)             Output file: <figures/environmentaldata-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-04-18 10:52:05
+(epstopdf)                    size: 27448 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/environmentaldata-
+eps-converted-to.pdf figures/environmentaldata.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/environmentaldata-eps-converted-to.pdf, id=60, 1233.60875pt x 1406.253
+75pt>
+File: figures/environmentaldata-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/environmentaldata-eps-converted-to.pdf>
+Package pdftex.def Info: figures/environmentaldata-eps-converted-to.pdf used on
+ input line 189.
+(pdftex.def)             Requested size: 471.14793pt x 537.0982pt.
+
+Overfull \hbox (35.53714pt too wide) in paragraph at lines 189--190
+ [] 
+ []
+
+Package epstopdf Info: Source file: <figures/sim105_pcadapt.eps>
+(epstopdf)                    date: 2017-03-08 11:29:28
+(epstopdf)                    size: 36094 bytes
+(epstopdf)             Output file: <figures/sim105_pcadapt-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-03-08 11:31:09
+(epstopdf)                    size: 76993 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/sim105_pcadapt-eps
+-converted-to.pdf figures/sim105_pcadapt.eps>
+(epstopdf)             \includegraphics on input line 198.
+Package epstopdf Info: Output file is already uptodate.
+<figures/sim105_pcadapt-eps-converted-to.pdf, id=61, 759.83875pt x 590.205pt>
+File: figures/sim105_pcadapt-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/sim105_pcadapt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/sim105_pcadapt-eps-converted-to.pdf used on in
+put line 198.
+(pdftex.def)             Requested size: 345.72717pt x 268.54398pt.
+Package epstopdf Info: Source file: <figures/sim105_capscale.eps>
+(epstopdf)                    date: 2017-03-08 11:29:37
+(epstopdf)                    size: 36016 bytes
+(epstopdf)             Output file: <figures/sim105_capscale-eps-converted-to.p
+df>
+(epstopdf)                    date: 2017-03-08 11:31:10
+(epstopdf)                    size: 76377 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/sim105_capscale-ep
+s-converted-to.pdf figures/sim105_capscale.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/sim105_capscale-eps-converted-to.pdf, id=62, 759.83875pt x 590.205pt>
+File: figures/sim105_capscale-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/sim105_capscale-eps-converted-to.pdf>
+Package pdftex.def Info: figures/sim105_capscale-eps-converted-to.pdf used on i
+nput line 206.
+(pdftex.def)             Requested size: 345.72717pt x 268.54398pt.
+Package epstopdf Info: Source file: <figures/overallresults.eps>
+(epstopdf)                    date: 2017-03-08 11:14:17
+(epstopdf)                    size: 8134 bytes
+(epstopdf)             Output file: <figures/overallresults-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-03-08 11:31:10
+(epstopdf)                    size: 9817 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/overallresults-eps
+-converted-to.pdf figures/overallresults.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/overallresults-eps-converted-to.pdf, id=63, 759.83875pt x 590.205pt>
+File: figures/overallresults-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/overallresults-eps-converted-to.pdf>
+Package pdftex.def Info: figures/overallresults-eps-converted-to.pdf used on in
+put line 215.
+(pdftex.def)             Requested size: 345.72717pt x 268.54398pt.
+Package epstopdf Info: Source file: <figures/rdaA.eps>
+(epstopdf)                    date: 2017-03-08 18:02:12
+(epstopdf)                    size: 7423 bytes
+(epstopdf)             Output file: <figures/rdaA-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-08 18:04:34
+(epstopdf)                    size: 11830 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/rdaA-eps-converted
+-to.pdf figures/rdaA.eps>
+(epstopdf)             \includegraphics on input line 223.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/rdaA-eps-converted-to.pdf, id=64, 579.16376pt x 394.47375pt>
+File: figures/rdaA-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/rdaA-eps-converted-to.pdf>
+Package pdftex.def Info: figures/rdaA-eps-converted-to.pdf used on input line 2
+23.
+(pdftex.def)             Requested size: 394.27684pt x 268.54398pt.
+Package epstopdf Info: Source file: <figures/R2.eps>
+(epstopdf)                    date: 2017-04-18 11:33:09
+(epstopdf)                    size: 8153 bytes
+(epstopdf)             Output file: <figures/R2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-18 11:34:05
+(epstopdf)                    size: 9750 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/R2-eps-converted-t
+o.pdf figures/R2.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/R2-eps-converted-to.pdf, id=65, 529.98pt x 394.47375pt>
+File: figures/R2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/R2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/R2-eps-converted-to.pdf used on input line 231
+.
+(pdftex.def)             Requested size: 360.79404pt x 268.54398pt.
+Package epstopdf Info: Source file: <figures/poplar_rda.eps>
+(epstopdf)                    date: 2017-04-18 18:19:21
+(epstopdf)                    size: 22015 bytes
+(epstopdf)             Output file: <figures/poplar_rda-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-18 18:24:17
+(epstopdf)                    size: 16053 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/poplar_rda-eps-con
+verted-to.pdf figures/poplar_rda.eps>
+(epstopdf)             \includegraphics on input line 239.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/poplar_rda-eps-converted-to.pdf, id=66, 529.98pt x 394.47375pt>
+File: figures/poplar_rda-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/poplar_rda-eps-converted-to.pdf>
+Package pdftex.def Info: figures/poplar_rda-eps-converted-to.pdf used on input 
+line 239.
+(pdftex.def)             Requested size: 360.79404pt x 268.54398pt.
+Package epstopdf Info: Source file: <figures/varexplainedPopulus.eps>
+(epstopdf)                    date: 2017-04-18 18:51:45
+(epstopdf)                    size: 7870 bytes
+(epstopdf)             Output file: <figures/varexplainedPopulus-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-04-18 18:53:39
+(epstopdf)                    size: 9786 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/varexplainedPopulu
+s-eps-converted-to.pdf figures/varexplainedPopulus.eps>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/varexplainedPopulus-eps-converted-to.pdf, id=67, 529.98pt x 394.47375p
+t>
+File: figures/varexplainedPopulus-eps-converted-to.pdf Graphic file (type pdf)
+ <use figures/varexplainedPopulus-eps-converted-to.pdf>
+Package pdftex.def Info: figures/varexplainedPopulus-eps-converted-to.pdf used 
+on input line 247.
+(pdftex.def)             Requested size: 360.79404pt x 268.54398pt.
+
+
+Package natbib Warning: There were undefined citations.
+
+[13 <./figures/screeplot-rda-eps-converted-to.pdf> <./figures/screeplot-pca-eps
+-converted-to.pdf>] [14 <./figures/simulatedenvironment-eps-converted-to.pdf>]
+[15 <./figures/environmentaldata-eps-converted-to.pdf>] [16 <./figures/sim105_p
+cadapt-eps-converted-to.pdf> <./figures/sim105_capscale-eps-converted-to.pdf>]
+[17 <./figures/overallresults-eps-converted-to.pdf> <./figures/rdaA-eps-convert
+ed-to.pdf>] [18 <./figures/R2-eps-converted-to.pdf> <./figures/poplar_rda-eps-c
+onverted-to.pdf>] [19 <./figures/varexplainedPopulus-eps-converted-to.pdf>]
+(./article_genome_scan.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2748 strings out of 493014
+ 40735 string characters out of 6133351
+ 112602 words of memory out of 5000000
+ 6255 multiletter control sequences out of 15000+600000
+ 9507 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,6n,32p,3778b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on article_genome_scan.pdf (19 pages, 476656 bytes).
+PDF statistics:
+ 238 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
